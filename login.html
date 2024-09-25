@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+      body{
+    background-color: lightpink; 
+    }
+    form{
+     border-color: black;
+     border-style: solid;
+     border-width: 4px;
+     width: 500px;
+     height: 400px;
+     padding: 23px;
+     background-color: lightblue;
+     border-radius: 30px;
+     margin: auto;
+    }
+    .upperbox label{
+     font-size: 22px;
+     font-family: 'Times New Roman', Times, serif;
+    }
+    .upperbox input{
+     float: right;
+     height: 24px;
+     width: 200px;
+    }
+    h1{
+     text-align: center;
+     margin-bottom: 40px;
+    }
+    button{
+     padding: 10px 17px;
+     background-color: aquamarine;
+     border: none;
+     border-radius: 17px;
+     font-size: 17px;
+     float: right;
+    }
+    #reset{
+     float: left;
+     margin: none;
+    }
+    .botam input:hover, button:hover{
+     background-color: rgb(89, 186, 154);
+    }
+    #new{
+    float: right;
+    }
+    #forget{
+    float: left;
+    }
+    #login{
+    float: right;
+    }
+    #login a, #new a{
+    text-decoration: none;
+    color: black;
+    }
+    </style>
+</head>
+<body>
+  <div class="main-box">
+    <form action="#">
+        <h1>LogIn</h1>
+    <div class="upperbox">
+      <label for="name">Username: </label>
+      <input type="text" id="name" required>
+      <br> <br>
+      <label for="pass">Password: </label>
+      <input type="password" id="pass" required>
+      <br> <br>
+    </div>
+    <input type="checkbox" id="check">
+    <label for="check">I agree with <a id="term" href="#">terms and conditions</a></label>
+    <br><br>
+    <button id="forget">Forgot Password?</button>
+    <button id="login"><a href="#">LogIn</a></button>
+    <br> <br> <br> <br>
+    <button id="new"><a href="reg.html">New Here? Signup</a></button>
+      
+    </form>
+  </div>
+</body>
+</html>
